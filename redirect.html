@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Redirect</title>
+    <script>
+        window.onload = function() {
+            var userAgent = navigator.userAgent.toLowerCase();
+            if (userAgent.includes('iphone') || userAgent.includes('ipad')) {
+                window.location.href = 'https://your-ios-specific-url.com';
+            } else if (userAgent.includes('android')) {
+                window.location.href = 'https://your-android-specific-url.com';
+            } else {
+                document.body.innerHTML = 'Unsupported device';
+            }
+        }
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html>
