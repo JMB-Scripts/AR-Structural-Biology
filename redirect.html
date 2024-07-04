@@ -11,13 +11,13 @@
         }
 
         window.onload = function() {
-            var iosUrl = getQueryParam('ios');
-            var androidUrl = getQueryParam('android');
+            var iosUrl = decodeURIComponent(getQueryParam('ios'));
+            var androidUrl = decodeURIComponent(getQueryParam('android'));
             var userAgent = navigator.userAgent.toLowerCase();
             if (userAgent.includes('iphone') || userAgent.includes('ipad')) {
-                window.location.href = decodeURIComponent(iosUrl);
+                window.location.href = iosUrl;
             } else if (userAgent.includes('android')) {
-                window.location.href = decodeURIComponent(androidUrl);
+                window.location.href = androidUrl;
             } else {
                 document.body.innerHTML = 'Unsupported device';
             }
