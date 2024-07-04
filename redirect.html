@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Device Redirect</title>
     <script>
+        function getQueryParam(param) {
+            var urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
         window.onload = function() {
+            var iosUrl = getQueryParam('ios');
+            var androidUrl = getQueryParam('android');
             var userAgent = navigator.userAgent.toLowerCase();
             if (userAgent.includes('iphone') || userAgent.includes('ipad')) {
-                window.location.href = 'https://your-ios-specific-url.com';
+                window.location.href = iosUrl;
             } else if (userAgent.includes('android')) {
-                window.location.href = 'https://your-android-specific-url.com';
+                window.location.href = androidUrl;
             } else {
                 document.body.innerHTML = 'Unsupported device';
             }
