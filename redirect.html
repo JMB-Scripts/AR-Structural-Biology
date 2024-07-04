@@ -15,9 +15,9 @@
             var androidUrl = getQueryParam('android');
             var userAgent = navigator.userAgent.toLowerCase();
             if (userAgent.includes('iphone') || userAgent.includes('ipad')) {
-                window.location.href = iosUrl;
+                window.location.href = decodeURIComponent(iosUrl);
             } else if (userAgent.includes('android')) {
-                window.location.href = androidUrl;
+                window.location.href = decodeURIComponent(androidUrl);
             } else {
                 document.body.innerHTML = 'Unsupported device';
             }
