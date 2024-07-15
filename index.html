@@ -39,7 +39,7 @@
             const baseIOSUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/IOS/';
             const baseAndroidUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/Android/';
 
-            // Define model filenames (replace with actual filenames)
+            // Define model filenames
             const models = {
                 model1: {
                     ios: 'a-helix.usdz',
@@ -57,7 +57,6 @@
                     ios: 'mcherry.usdz',
                     android: 'mcherry.glb'
                 }
-                // Add more models as needed
             };
 
             // Check if the modelId is valid
@@ -74,6 +73,11 @@
                 modelViewer.setAttribute('src', baseAndroidUrl + models[modelId].android);
                 modelViewer.setAttribute('ios-src', '');
             }
+
+            // Log to console for debugging
+            console.log('Model ID:', modelId);
+            console.log('User Agent:', userAgent);
+            console.log('Model URL:', modelViewer.getAttribute('src'));
         }
 
         // Parse model ID from query parameters
