@@ -61,10 +61,10 @@ To host the viewer on GitHub Pages or any other static site hosting service, ens
 
 Generate QR codes that link to your hosted `index.html` with the appropriate model query parameter. For example:
 
-- **Alpha Helix**: `https://yourdomain.com/index.html?model=model1`
-- **Beta Sheet**: `https://yourdomain.com/index.html?model=model2`
-- **DNA**: `https://yourdomain.com/index.html?model=model3`
-- **mCherry**: `https://yourdomain.com/index.html?model=model4`
+- **Alpha Helix**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
+- **Beta Sheet**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model2`
+- **DNA**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model3`
+- **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
 
 You can use a QR code generator like [qrserver](https://goqr.me/) to create the QR codes.
 
@@ -88,4 +88,4 @@ Here are the QR codes for each model:
 
 Here is an example link for the Alpha Helix model:
 
-- **URL**: `https://yourdomain.com/index.html?model=model1`
+- **URL**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
