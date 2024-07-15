@@ -22,5 +22,5 @@ def generate_qr_code(url, output_filename="qr_code.png"):
     print(f"QR code generated and saved as: {output_filename}")
 
 # Example usage
-redirect_html_url = "https://github.com/JMB-Scripts/AR-BIO131/blob/main/redirect.html"  # Replace with your actual hosted HTML file URL
+redirect_html_url = "https://JMB-Scripts.github.io/AR-Structural-Biology/index.html?model=model4"  # Replace with your actual hosted HTML file URL
 generate_qr_code(redirect_html_url)
