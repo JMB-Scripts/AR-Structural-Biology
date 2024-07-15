@@ -67,9 +67,9 @@ Generate QR codes that link to your hosted `index.html` with the appropriate mod
 - **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
 
 You can use a QR code generator in QR-Code directory
-edit the Qr-code to load the correct URL
+edit the Qr-code to note the correct URL
 and then 
-   'python Qr-code.py' 
+ ** `python Qr-code.py`
 
 ## QR Codes
 
