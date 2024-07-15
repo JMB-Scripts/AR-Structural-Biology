@@ -30,20 +30,20 @@ The following models are currently available:
 AR-Structural-Biology/
 ├── index.html
 ├── IOS/
-│ ├── a-helix.usdz
-│ ├── beta-sheet.usdz
-│ ├── DNA.usdz
-│ └── mcherry.usdz
+│   ├── a-helix.usdz
+│   ├── beta-sheet.usdz
+│   ├── DNA.usdz
+│   └── mcherry.usdz
 ├── Android/
-│ ├── a-helix.glb
-│ ├── beta-sheet.glb
-│ ├── DNA.glb
-│ └── mcherry.glb
+│   ├── a-helix.glb
+│   ├── beta-sheet.glb
+│   ├── DNA.glb
+│   └── mcherry.glb
 └── QR-Code/
-├── model1.png
-├── model2.png
-├── model3.png
-└── model4.png
+    ├── a-helix.png
+    ├── beta-sheet.png
+    ├── DNA.png
+    └── mcherry.png
 
 
 ## Usage
@@ -73,16 +73,16 @@ You can use a QR code generator like [qrserver](https://goqr.me/) to create the 
 Here are the QR codes for each model:
 
 ### Alpha Helix
-![Alpha Helix QR Code](QR-Code/model1.png)
+![Alpha Helix QR Code](QR-Code/a-helix.png)
 
 ### Beta Sheet
-![Beta Sheet QR Code](QR-Code/model2.png)
+![Beta Sheet QR Code](QR-Code/beta-sheet.png)
 
 ### DNA
-![DNA QR Code](QR-Code/model3.png)
+![DNA QR Code](QR-Code/DNA.png)
 
 ### mCherry
-![mCherry QR Code](QR-Code/model4.png)
+![mCherry QR Code](QR-Code/mcherry.png)
 
 ## Example
 
