@@ -1,13 +1,16 @@
 # AR Structural Biology Viewer
 
 This project provides a **free** web-based AR viewer for 3D models for teaching structural biology, optimized for both iOS and Android devices. Students can scan QR codes to view different biological structures in augmented reality or 3D without any specific app.
-You can clone this repository to add your own models. 
+
+Be free to clone this repository to add your own 3D models.
+
 ## Features
 
 - **Cross-Platform Support**: Automatically detects the user's device (iOS or Android) and loads the appropriate 3D model format (USDZ for iOS, GLB for Android).
 - **Augmented Reality**: Allows users to view 3D models in AR if their device supports it.
 - **Dynamic Model Loading**: QR codes link to specific models, which are dynamically loaded based on the URL parameters.
 - **Python script to generate free QR code**: you can easily generate the different QR code to link URL to specific models.
+- **Pymol and Blender** are use to genrate 3D models. For large strucutre meshlab is use for decimation.
 
 ## Models
 
@@ -101,3 +104,5 @@ Here are the QR codes for each model:
 Here is an example link for the Alpha Helix model:
 
 - **URL**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
+## Thx
+to @Allister_crow to publish my first rundown in AR 
