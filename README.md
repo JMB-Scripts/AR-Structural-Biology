@@ -79,7 +79,7 @@ Generate QR codes that link to your hosted `index.html` with the appropriate mod
 - **Beta Sheet**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model2`
 - **DNA**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model3`
 - **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
-- **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
+- **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model5`
 - **Haemoglobin**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model6`
 You can use a QR code generator in QR-Code directory
 1. **Edit Qr-code.py**
