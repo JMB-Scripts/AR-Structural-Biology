@@ -93,6 +93,9 @@ Here are the QR codes for each model:
 ### mCherry
 ![mCherry QR Code](QR-Code/mcherry.png)
 
+### Haemoglobin
+![Haemoglobin QR Code](QR-Code/hemo.png)
+
 ## Example
 
 Here is an example link for the Alpha Helix model:
