@@ -28,7 +28,13 @@ The following models are currently available:
 4. **mCherry**
    - iOS: `mcherry.usdz`
    - Android: `mcherry.glb`
-
+5. **B-galactosidase**
+   - iOS: `B-gal.usdz`
+   - Android: `B-gal.glb`
+6. **Haemoglobin**
+   - iOS: `hemo.usdz`
+   - Android: `hemo.glb`
+     
 ## Directory Structure
 
 AR-Structural-Biology/
@@ -44,10 +50,10 @@ AR-Structural-Biology/
 │   ├── DNA.glb
 │   └── mcherry.glb
 └── QR-Code/
-    ├── a-helix.png
-    ├── beta-sheet.png
-    ├── DNA.png
-    └── mcherry.png
+│   ├── a-helix.png
+│   ├── beta-sheet.png
+│   ├── DNA.png
+│   └── mcherry.png
 │
 └── css/
 │
@@ -73,11 +79,12 @@ Generate QR codes that link to your hosted `index.html` with the appropriate mod
 - **Beta Sheet**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model2`
 - **DNA**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model3`
 - **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
-
+- **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
+- **Haemoglobin**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model6`
 You can use a QR code generator in QR-Code directory
-1. **Edit the Qr-code.py change the URL**
+1. **Edit Qr-code.py**
+   change the URL line25
 2. **Then in a terminal type:**
-
  **`python Qr-code.py`**
 
 ## QR Codes
