@@ -2,7 +2,7 @@
 
 This project provides a **free** web-based AR viewer for 3D models for teaching structural biology, optimized for both iOS and Android devices. Students can scan QR codes to view different biological structures in augmented reality or 3D without any specific app.
 
-Be free to clone this repository to add your own 3D models.
+Be free to clone this repository to add your own 3D models and make your own AR journey.
 
 ## Features
 
@@ -34,31 +34,7 @@ The following models are currently available:
 6. **Haemoglobin**
    - iOS: `hemo.usdz`
    - Android: `hemo.glb`
-     
-## Directory Structure
-
-AR-Structural-Biology/
-├── index.html
-├── IOS/
-│   ├── a-helix.usdz
-│   ├── beta-sheet.usdz
-│   ├── DNA.usdz
-│   └── mcherry.usdz
-├── Android/
-│   ├── a-helix.glb
-│   ├── beta-sheet.glb
-│   ├── DNA.glb
-│   └── mcherry.glb
-└── QR-Code/
-│   ├── a-helix.png
-│   ├── beta-sheet.png
-│   ├── DNA.png
-│   └── mcherry.png
-│
-└── css/
-│
-└── js/
-
+  
 ## Usage
 
 ### Viewing Models
@@ -113,5 +89,6 @@ Here are the QR codes for each model:
 Here is an example link for the Alpha Helix model:
 
 - **URL**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
+
 ## Thx
-to @Allister_crow to publish my first rundown in AR 
+to @Allister_crow for its tutorial on AR and structural biology.
