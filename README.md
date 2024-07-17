@@ -84,11 +84,5 @@ Here are the QR codes for each model:
 ### Haemoglobin
 ![Haemoglobin QR Code](QR-Code/hemo.png)
 
-## Example
-
-Here is an example link for the Alpha Helix model:
-
-- **URL**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
-
 ## Thx
-to @Allister_crow for its tutorial on AR and structural biology.
+to @Allister_crow for its walkthrough on the use of AR for structural biology.
