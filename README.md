@@ -81,7 +81,9 @@ Generate QR codes that link to your hosted `index.html` with the appropriate mod
 - **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
 - **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model5`
 - **Haemoglobin**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model6`
-You can use a QR code generator in QR-Code directory
+
+You can use a QR code generator Qr-code.py in QR-Code directory:
+
 1. **Edit Qr-code.py**
    change the URL line25
 2. **Then in a terminal type:**
