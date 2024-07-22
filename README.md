@@ -1,13 +1,16 @@
 # AR Structural Biology Viewer
 
 This project provides a **free** web-based AR viewer for 3D models for teaching structural biology, optimized for both iOS and Android devices. Students can scan QR codes to view different biological structures in augmented reality or 3D without any specific app.
-You can clone this repository to add your own models. 
+
+Be free to clone this repository to add your own 3D models and make your own AR journey.
+
 ## Features
 
 - **Cross-Platform Support**: Automatically detects the user's device (iOS or Android) and loads the appropriate 3D model format (USDZ for iOS, GLB for Android).
 - **Augmented Reality**: Allows users to view 3D models in AR if their device supports it.
 - **Dynamic Model Loading**: QR codes link to specific models, which are dynamically loaded based on the URL parameters.
 - **Python script to generate free QR code**: you can easily generate the different QR code to link URL to specific models.
+- **Pymol and Blender** are use to genrate 3D models. For large strucutre meshlab is use for decimation.
 
 ## Models
 
@@ -25,31 +28,13 @@ The following models are currently available:
 4. **mCherry**
    - iOS: `mcherry.usdz`
    - Android: `mcherry.glb`
-
-## Directory Structure
-
-AR-Structural-Biology/
-├── index.html
-├── IOS/
-│   ├── a-helix.usdz
-│   ├── beta-sheet.usdz
-│   ├── DNA.usdz
-│   └── mcherry.usdz
-├── Android/
-│   ├── a-helix.glb
-│   ├── beta-sheet.glb
-│   ├── DNA.glb
-│   └── mcherry.glb
-└── QR-Code/
-    ├── a-helix.png
-    ├── beta-sheet.png
-    ├── DNA.png
-    └── mcherry.png
-│
-└── css/
-│
-└── js/
-
+5. **B-galactosidase**
+   - iOS: `B-gal.usdz`
+   - Android: `B-gal.glb`
+6. **Haemoglobin**
+   - iOS: `hemo.usdz`
+   - Android: `hemo.glb`
+  
 ## Usage
 
 ### Viewing Models
@@ -70,11 +55,14 @@ Generate QR codes that link to your hosted `index.html` with the appropriate mod
 - **Beta Sheet**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model2`
 - **DNA**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model3`
 - **mCherry**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model4`
+- **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model5`
+- **Haemoglobin**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model6`
 
-You can use a QR code generator in QR-Code directory
-1. **Edit the Qr-code.py change the URL**
+You can use a QR code generator Qr-code.py in QR-Code directory:
+
+1. **Edit Qr-code.py**
+   change the URL line25
 2. **Then in a terminal type:**
-
  **`python Qr-code.py`**
 
 ## QR Codes
@@ -93,8 +81,8 @@ Here are the QR codes for each model:
 ### mCherry
 ![mCherry QR Code](QR-Code/mcherry.png)
 
-## Example
+### Haemoglobin
+![Haemoglobin QR Code](QR-Code/hemo.png)
 
-Here is an example link for the Alpha Helix model:
-
-- **URL**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model1`
+## Thx
+to @Allister_crow for its walkthrough on the use of AR for structural biology.
