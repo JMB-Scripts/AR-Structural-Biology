@@ -36,81 +36,46 @@
                   scale="0.1 0.1 0.1">
     </model-viewer>
     <script>
-        // Function to detect platform and set appropriate model source
-        function setModelSource(modelId) {
-            const modelViewer = document.getElementById('ar-model-viewer');
-            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-            // Base URLs for models on GitHub
-            const baseIOSUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/IOS/';
-            const baseAndroidUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/Android/';
-
-            // Define model filenames
-            const models = {
-                model1: {
-                    ios: 'a-helix.usdz',
-                    android: 'a-helix.glb'
-                },
-                model2: {
-                    ios: 'beta-sheet.usdz',
-                    android: 'beta-sheet.glb'
-                },
-                model3: {
-                    ios: 'DNA.usdz',
-                    android: 'DNA.glb'
-                },
-                model4: {
-                    ios: 'mcherry.usdz',
-                    android: 'mcherry.glb'
-                },
-                model5: {
-                    ios: 'B-gal.usdz',
-                    android: 'B-gal.glb'
-                },
-                model6: {
-                    ios: 'hemo.usdz',
-                    android: 'hemo.glb'
-                },
-                model7: {
-                    ios: '1lmb-v5.usdz',
-                    android: '1lmb-v5.glb'
-                },
-                model8: {
-                    ios: 'cap.usdz',
-                    android: 'cap.glb'
-                },
-                model99: {
-                    ios: 'ubi.usdz',
-                    android: 'ubi.glb'
-                }
-            };
-
-            // Check if the modelId is valid
-            if (!models[modelId]) {
-                console.error('Invalid model ID:', modelId);
-                return;
+        async function fetchModelsConfig() {
+            const response = await fetch('models.json');
+            if (!response.ok) {
+                throw new Error('Failed to fetch models configuration');
             }
-
-            // Set the model source based on the platform
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                modelViewer.setAttribute('src', '');
-                modelViewer.setAttribute('ios-src', baseIOSUrl + models[modelId].ios);
-            } else {
-                modelViewer.setAttribute('src', baseAndroidUrl + models[modelId].android);
-                modelViewer.setAttribute('ios-src', '');
-            }
-
-            // Log to console for debugging
-            console.log('Model ID:', modelId);
-            console.log('User Agent:', userAgent);
-            console.log('Model URL:', modelViewer.getAttribute('src'));
+            return response.json();
         }
 
-        // Parse model ID from query parameters
+        async function setModelSource(modelId) {
+            try {
+                const models = await fetchModelsConfig();
+                const modelViewer = document.getElementById('ar-model-viewer');
+                const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+                const baseIOSUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/IOS/';
+                const baseAndroidUrl = 'https://github.com/JMB-Scripts/AR-Structural-Biology/raw/main/Android/';
+
+                if (!models[modelId]) {
+                    console.error('Invalid model ID:', modelId);
+                    return;
+                }
+
+                if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                    modelViewer.setAttribute('src', '');
+                    modelViewer.setAttribute('ios-src', baseIOSUrl + models[modelId].ios);
+                } else {
+                    modelViewer.setAttribute('src', baseAndroidUrl + models[modelId].android);
+                    modelViewer.setAttribute('ios-src', '');
+                }
+
+                console.log('Model ID:', modelId);
+                console.log('User Agent:', userAgent);
+                console.log('Model URL:', modelViewer.getAttribute('src'));
+            } catch (error) {
+                console.error('Error setting model source:', error);
+            }
+        }
+
         const urlParams = new URLSearchParams(window.location.search);
         const modelId = urlParams.get('model');
-
-        // Set the model source based on the model ID
         setModelSource(modelId);
     </script>
 </body>

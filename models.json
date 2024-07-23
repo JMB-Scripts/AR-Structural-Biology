@@ -1,0 +1,12 @@
+// models.json
+{
+    "model1": { "ios": "a-helix.usdz", "android": "a-helix.glb" },
+    "model2": { "ios": "beta-sheet.usdz", "android": "beta-sheet.glb" },
+    "model3": { "ios": "DNA.usdz", "android": "DNA.glb" },
+    "model4": { "ios": "mcherry.usdz", "android": "mcherry.glb" },
+    "model5": { "ios": "B-gal.usdz", "android": "B-gal.glb" },
+    "model6": { "ios": "hemo.usdz", "android": "hemo.glb" },
+    "model7": { "ios": "1lmb-v5.usdz", "android": "1lmb-v5.glb" },
+    "model8": { "ios": "cap.usdz", "android": "cap.glb" },
+    "model99": { "ios": "ubi.usdz", "android": "ubi.glb" }
+}
