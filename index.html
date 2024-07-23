@@ -32,21 +32,34 @@
                   camera-orbit="45deg 55deg 2.5m"
                   exposure="1.5"
                   environment-image="neutral"
-                  ar-modes="scene-viewer quick-look webxr" 
-                  scale="0.1 0.1 0.1">
+                  ar-modes="scene-viewer quick-look webxr"
+                  scale="0.1 0.1 0.1"
+                  on-error="handleModelError">
     </model-viewer>
     <script>
         async function fetchModelsConfig() {
-            const response = await fetch('models.json');
-            if (!response.ok) {
-                throw new Error('Failed to fetch models configuration');
+            try {
+                const response = await fetch('models.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch models configuration');
+                }
+                return await response.json();
+            } catch (error) {
+                console.error('Error fetching models configuration:', error);
+                return null;
             }
-            return response.json();
+        }
+
+        function handleModelError(event) {
+            console.error('Model Viewer Error:', event);
+            alert('There was an error loading the AR model. Please try again.');
         }
 
         async function setModelSource(modelId) {
             try {
                 const models = await fetchModelsConfig();
+                if (!models) return;
+
                 const modelViewer = document.getElementById('ar-model-viewer');
                 const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
@@ -68,7 +81,7 @@
 
                 console.log('Model ID:', modelId);
                 console.log('User Agent:', userAgent);
-                console.log('Model URL:', modelViewer.getAttribute('src'));
+                console.log('Model URL:', modelViewer.getAttribute('src') || modelViewer.getAttribute('ios-src'));
             } catch (error) {
                 console.error('Error setting model source:', error);
             }

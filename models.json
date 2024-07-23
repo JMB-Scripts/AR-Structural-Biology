@@ -1,4 +1,3 @@
-// models.json
 {
     "model1": { "ios": "a-helix.usdz", "android": "a-helix.glb" },
     "model2": { "ios": "beta-sheet.usdz", "android": "beta-sheet.glb" },
