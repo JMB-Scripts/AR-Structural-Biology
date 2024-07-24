@@ -108,9 +108,9 @@ The following models are currently available:
 ## QR Codes
 Here are some QR codes for each model:
 ### Alpha Helix
-![Alpha Helix QR Code](QR-Code/a-helix.png)
+![Alpha Helix QR Code](QR-Code/a-helix.png | width=150)
 ### Beta Sheet
-![Beta Sheet QR Code](QR-Code/beta-sheet.png)
+![Beta Sheet QR Code](QR-Code/beta-sheet.png | width=150)
 ### DNA
 ![DNA QR Code](QR-Code/DNA.png)
 ### mCherry
