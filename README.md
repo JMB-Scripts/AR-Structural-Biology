@@ -81,7 +81,7 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
 ### Viewing Models
 
 1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
-   (for ipad make sur that safari is in mobil version)
+   (for ipad make sure that safari is in mobile version)
    
 ## QR Codes
 Here are some QR codes for each model:
