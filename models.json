@@ -6,5 +6,6 @@
     "model5": { "ios": "B-gal.usdz", "android": "B-gal.glb" },
     "model6": { "ios": "hemo.usdz", "android": "hemo.glb" },
     "model7": { "ios": "1lmb-v5.usdz", "android": "1lmb-v5.glb" },
-    "model8": { "ios": "cap.usdz", "android": "cap.glb" }
+    "model8": { "ios": "cap.usdz", "android": "cap.glb" },
+    "model9": { "ios": "HT.usdz", "android": "HT.glb" }
 }
