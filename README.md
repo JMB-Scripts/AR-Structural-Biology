@@ -106,11 +106,11 @@ Here are some QR codes for each model:
 <img src="Divers/ar-icon.png" alt="Cube" width="100" height="100">
 
 4. **See the magic, your model in your world**
-<img src="Divers/DNA.jpg" alt="AR-DNA" width="150" height="200">
+<img src="Divers/DNA.jpg" alt="AR-DNA" width="150" height="250">
 
 5. **Display just the 3D model without AR**
   You have the possibility to just display the model in 3D by clicking on 3D
-<img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="200">
+<img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
 ## Thx
 to @Allister_crow for its walkthrough on the use of AR for structural biology.
