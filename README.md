@@ -113,5 +113,5 @@ Here are some QR codes for each model:
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
 ## Thx
-to @Allister_crow for its walkthrough on the use of AR for structural biology.
-to chatgpt because HTML is not my friend.
+- To @Allister_crow for its walkthrough on the use of AR for structural biology.
+- To chatgpt because HTML is not my friend.
