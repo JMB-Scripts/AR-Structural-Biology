@@ -75,36 +75,14 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
    change the URL line 25 with the proper model number
    2. **Then in a terminal type:**
       **`python Qr-code.py`**
-
-
-## Models example (more in the Qr code directory)
-
-The following models are currently available:
-
-1. **Alpha Helix**
-   - iOS: `a-helix.usdz`
-   - Android: `a-helix.glb`
-2. **Beta Sheet**
-   - iOS: `beta-sheet.usdz`
-   - Android: `beta-sheet.glb`
-3. **DNA**
-   - iOS: `DNA.usdz`
-   - Android: `DNA.glb`
-4. **mCherry**
-   - iOS: `mcherry.usdz`
-   - Android: `mcherry.glb`
-5. **B-galactosidase**
-   - iOS: `B-gal.usdz`
-   - Android: `B-gal.glb`
-6. **Haemoglobin**
-   - iOS: `hemo.usdz`
-   - Android: `hemo.glb`
   
 ## Usage
 
 ### Viewing Models
 
 1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
+   (for ipad make sur that safari is in mobil version)
+   
 ## QR Codes
 Here are some QR codes for each model:
 ### Alpha Helix
