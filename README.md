@@ -75,36 +75,14 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
    change the URL line 25 with the proper model number
    2. **Then in a terminal type:**
       **`python Qr-code.py`**
-
-
-## Models example (more in the Qr code directory)
-
-The following models are currently available:
-
-1. **Alpha Helix**
-   - iOS: `a-helix.usdz`
-   - Android: `a-helix.glb`
-2. **Beta Sheet**
-   - iOS: `beta-sheet.usdz`
-   - Android: `beta-sheet.glb`
-3. **DNA**
-   - iOS: `DNA.usdz`
-   - Android: `DNA.glb`
-4. **mCherry**
-   - iOS: `mcherry.usdz`
-   - Android: `mcherry.glb`
-5. **B-galactosidase**
-   - iOS: `B-gal.usdz`
-   - Android: `B-gal.glb`
-6. **Haemoglobin**
-   - iOS: `hemo.usdz`
-   - Android: `hemo.glb`
   
 ## Usage
 
 ### Viewing Models
 
 1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
+   (for ipad make sur that safari is in mobil version)
+   
 ## QR Codes
 Here are some QR codes for each model:
 ### Alpha Helix
@@ -125,7 +103,7 @@ Here are some QR codes for each model:
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
 3. **click on the cube at the bottom right**
-<img src="Ar-icon" alt="Cube" width="100" height="100">
+<img src="ar-icon.png" alt="Cube" width="100" height="100">
 
 4. **see the magic**
 <img src="https://github.com/user-attachments/assets/41d32dff-75f4-4697-9bae-d7b9d9ccaff2" alt="AR-DNA" width="150" height="200">
