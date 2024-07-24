@@ -106,9 +106,7 @@ The following models are currently available:
 
 1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
 ## QR Codes
-
 Here are some QR codes for each model:
-
 ### Alpha Helix
 ![Alpha Helix QR Code](QR-Code/a-helix.png)
 ### Beta Sheet
@@ -123,6 +121,7 @@ Here are some QR codes for each model:
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
 3. **click on the cube at the bottom right**
+![image](https://github.com/user-attachments/assets/5a806289-c596-4faf-bf8c-37e97c05be9d)
 
 4. **see the magic**
 
