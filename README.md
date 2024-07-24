@@ -110,24 +110,23 @@ Here are some QR codes for each model:
 ### Alpha Helix
 <img src="QR-Code/a-helix.png" alt="Alpha Helix" width="150" height="150">
 ### Beta Sheet
-![Beta Sheet QR Code](QR-Code/beta-sheet.png | width=100)
+<img src="QR-Code/beta-sheet.png" alt="Beta Sheet" width="150" height="150">
 ### DNA
-![DNA QR Code](QR-Code/DNA.png | width=100)
+<img src="QR-Code/DNA.png" alt="DNA" width="150" height="150">
 ### mCherry
-![mCherry QR Code](QR-Code/mcherry.png | width=100)
+<img src="QR-Code/mcherry.png" alt="mCherry" width="150" height="150">
 ### Haemoglobin
-![Haemoglobin QR Code](QR-Code/hemo.png | width=100)
+<img src="QR-Code/hemo.png" alt="Haemoglobin" width="150" height="150">
 
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
 3. **click on the cube at the bottom right**
-![image](https://github.com/user-attachments/assets/5a806289-c596-4faf-bf8c-37e97c05be9d | width=100)
+
+<img src="[https://github.com/user-attachments/assets/5a806289-c596-4faf-bf8c-37e97c05be9d]" alt="Cube" width="150" height="150">
 
 4. **see the magic**
-
-
-
+<img src="[https://github.com/user-attachments/assets/41d32dff-75f4-4697-9bae-d7b9d9ccaff2](https://github.com/user-attachments/assets/5a806289-c596-4faf-bf8c-37e97c05be9d)" alt="AR-DNA" width="150" height="150">
 
 ## Thx
 to @Allister_crow for its walkthrough on the use of AR for structural biology.
-to chatgpt because HTML is not my friend 
+to chatgpt because HTML is not my friend.
