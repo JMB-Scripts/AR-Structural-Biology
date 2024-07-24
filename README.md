@@ -111,7 +111,7 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
 
      `python Qr-code.py`
 
-  4. **Share the PNG** on your website, in your ecientific poster, or presentation.
+  4. **Share the PNG** on your website, in your scientific poster, or presentation etc...
 
   ### 4- The index.html will then depending of the mobile OS redirect to the correct model.
   
