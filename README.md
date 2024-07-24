@@ -108,7 +108,7 @@ The following models are currently available:
 ## QR Codes
 Here are some QR codes for each model:
 ### Alpha Helix
-![Alpha Helix QR Code](QR-Code/a-helix.png | width=100)
+<img src="QR-Code/a-helix.png" alt="Alpha Helix" width="150" height="150">
 ### Beta Sheet
 ![Beta Sheet QR Code](QR-Code/beta-sheet.png | width=100)
 ### DNA
