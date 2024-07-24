@@ -106,29 +106,30 @@ The following models are currently available:
 
 1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
 ## QR Codes
-
 Here are some QR codes for each model:
-
 ### Alpha Helix
-![Alpha Helix QR Code](QR-Code/a-helix.png)
+<img src="QR-Code/a-helix.png" alt="Alpha Helix" width="150" height="150">
+
 ### Beta Sheet
-![Beta Sheet QR Code](QR-Code/beta-sheet.png)
+<img src="QR-Code/beta-sheet.png" alt="Beta Sheet" width="150" height="150">
+
 ### DNA
-![DNA QR Code](QR-Code/DNA.png)
+<img src="QR-Code/DNA.png" alt="DNA" width="150" height="150">
+
 ### mCherry
-![mCherry QR Code](QR-Code/mcherry.png)
+<img src="QR-Code/mcherry.png" alt="mCherry" width="150" height="150">
+
 ### Haemoglobin
-![Haemoglobin QR Code](QR-Code/hemo.png)
+<img src="QR-Code/hemo.png" alt="Haemoglobin" width="150" height="150">
 
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
 3. **click on the cube at the bottom right**
+<img src="Ar-icon" alt="Cube" width="100" height="100">
 
 4. **see the magic**
-
-
-
+<img src="https://github.com/user-attachments/assets/41d32dff-75f4-4697-9bae-d7b9d9ccaff2" alt="AR-DNA" width="150" height="200">
 
 ## Thx
 to @Allister_crow for its walkthrough on the use of AR for structural biology.
-to chatgpt because HTML is not my friend 
+to chatgpt because HTML is not my friend.
