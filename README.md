@@ -109,19 +109,22 @@ The following models are currently available:
 Here are some QR codes for each model:
 ### Alpha Helix
 <img src="QR-Code/a-helix.png" alt="Alpha Helix" width="150" height="150">
+
 ### Beta Sheet
 <img src="QR-Code/beta-sheet.png" alt="Beta Sheet" width="150" height="150">
+
 ### DNA
 <img src="QR-Code/DNA.png" alt="DNA" width="150" height="150">
+
 ### mCherry
 <img src="QR-Code/mcherry.png" alt="mCherry" width="150" height="150">
+
 ### Haemoglobin
 <img src="QR-Code/hemo.png" alt="Haemoglobin" width="150" height="150">
 
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
 3. **click on the cube at the bottom right**
-
 <img src="[https://github.com/user-attachments/assets/5a806289-c596-4faf-bf8c-37e97c05be9d]" alt="Cube" width="150" height="150">
 
 4. **see the magic**
