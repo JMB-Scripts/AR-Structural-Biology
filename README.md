@@ -60,7 +60,7 @@ To create and optimize 3D models for the AR viewer, follow this pipeline using P
 
 2. **Import and Process in Blender:**
    - **Importing the Model:**
-     - Open Blender and /!\ enable the `Web3D X3D/VRML2` add-on /!\, which allows for importing VRML 2 files.
+     - Open Blender and /!\ enable the `Web3D X3D/VRML2` add-on /!\ , which allows for importing VRML 2 files.
      - Import the VRML 2 model into Blender.
    - **Processing in Blender:**
      - Refine the model, adjust textures, and prepare it for AR use. Ensure the model's scale and orientation are appropriate.
