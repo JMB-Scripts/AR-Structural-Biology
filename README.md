@@ -109,7 +109,7 @@ Here are some QR codes for each model:
 <img src="Divers/DNA.jpg" alt="AR-DNA" width="150" height="250">
 
 5. **Display just the 3D model without AR**
-  You have the possibility to just display the model in 3D by clicking on 3D
+  You have the possibility to just display the model in 3D by clicking on 'object' (for iOS)
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
 ## Thx
