@@ -102,11 +102,15 @@ Here are some QR codes for each model:
 
 2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
-3. **click on the cube at the bottom right**
-<img src="ar-icon.png" alt="Cube" width="100" height="100">
+3. **Click on the cube at the bottom right**
+<img src="Divers/ar-icon.png" alt="Cube" width="100" height="100">
 
-4. **see the magic**
-<img src="https://github.com/user-attachments/assets/41d32dff-75f4-4697-9bae-d7b9d9ccaff2" alt="AR-DNA" width="150" height="200">
+4. **See the magic, your model in your world**
+<img src="Divers/DNA.jpg" alt="AR-DNA" width="150" height="200">
+
+5. **Display just the 3D model without AR**
+  You have the possibility to just display the model in 3D by clicking on 3D
+<img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="200">
 
 ## Thx
 to @Allister_crow for its walkthrough on the use of AR for structural biology.
