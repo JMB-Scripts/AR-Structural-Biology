@@ -4,6 +4,8 @@ This project provides a **free** web-based AR viewer for 3D models for teaching 
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
 
+If you take nice AR picture please share !!
+
 ## Features
 
 - **Cross-Platform Support**: Automatically detects the user's device (iOS or Android) and loads the appropriate 3D model format (USDZ for iOS, GLB for Android).
