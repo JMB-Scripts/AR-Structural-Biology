@@ -104,11 +104,13 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
 
    You can use a QR code generator Qr-code.py in QR-Code/:
 
-   1. **Edit Qr-code.py**
-   change the URL line 25 with the proper model number
+      1. **Edit Qr-code.py**
+        change the URL line 25 with the proper model number
+
    2. **Then in a terminal type:**
       **`python Qr-code.py`**
-  3.share the PNG on the website or in your poster or presentation
+      
+     3. Share the PNG on your website, in your ecientific poster, or presentation.
 
    ### 4- The index.html will then depending of the mobile OS redirect to the correct model.
   
