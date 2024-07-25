@@ -4,13 +4,16 @@ This project provides a **free** web-based AR viewer for 3D models for teaching 
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
 
+If you take nice AR picture please share !!
+
 ## Features
 
 - **Cross-Platform Support**: Automatically detects the user's device (iOS or Android) and loads the appropriate 3D model format (USDZ for iOS, GLB for Android).
 - **Augmented Reality**: Allows users to view 3D models in AR if their device supports it.
 - **Dynamic Model Loading**: QR codes link to specific models, which are dynamically loaded based on the URL parameters.
 - **Python script to generate free QR code**: You can easily generate the different QR code to link URL to specific models.
-- **Pymol, Chimera and Blender** are use to genrate 3D models. 
+- **Pymol, Chimera and Blender** are use to genrate 3D models.
+- **Even Faster you can use Mol'*' (https://molstar.org/viewer/) that can directly export your model in usdz and glb format that are ready to be uploaded on your server**
 
 ## Usage
 
