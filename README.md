@@ -12,7 +12,8 @@ If you take nice AR picture please share !!
 - **Augmented Reality**: Allows users to view 3D models in AR if their device supports it.
 - **Dynamic Model Loading**: QR codes link to specific models, which are dynamically loaded based on the URL parameters.
 - **Python script to generate free QR code**: You can easily generate the different QR code to link URL to specific models.
-- **Pymol, Chimera and Blender** are use to genrate 3D models. 
+- **Pymol, Chimera and Blender** are use to genrate 3D models.
+- **Even Faster you can use Mol'*' (https://molstar.org/viewer/) that can directly export your model in usdz and glb format that are ready to be uploaded on your server**
 
 ## Usage
 
