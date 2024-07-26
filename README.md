@@ -57,6 +57,7 @@ Here are some QR codes for each model:
 6. **Just have Fun**
    
   Today's fluorescent assay is glowing in a vibrant …
+  
 … **mcherry**!
 
 
