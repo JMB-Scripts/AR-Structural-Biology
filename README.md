@@ -57,7 +57,10 @@ Here are some QR codes for each model:
 6. **Just have Fun**
   Today's fluorescent assay is glowing in a vibrant …
 … **mcherry**!
+
+
 https://github.com/user-attachments/assets/bfa177a1-5bc0-483a-8956-927bb8eb15a4
+
 
 ## Generating 3D Models for AR Viewer
 
