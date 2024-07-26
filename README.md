@@ -55,6 +55,7 @@ Here are some QR codes for each model:
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
 6. **Just have Fun**
+   
   Today's fluorescent assay is glowing in a vibrant …
 … **mcherry**!
 
