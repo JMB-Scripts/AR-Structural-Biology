@@ -54,6 +54,10 @@ Here are some QR codes for each model:
 
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
+6. **Just have Fun**
+  
+https://github.com/user-attachments/assets/bfa177a1-5bc0-483a-8956-927bb8eb15a4
+
 ## Generating 3D Models for AR Viewer
 
 To create and optimize 3D models for the AR viewer, follow this pipeline using PyMOL, Chimera, Blender, and MeshLab:
