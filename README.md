@@ -13,7 +13,8 @@ If you take nice AR picture please share !!
 - **Dynamic Model Loading**: QR codes link to specific models, which are dynamically loaded based on the URL parameters.
 - **Python script to generate free QR code**: You can easily generate the different QR code to link URL to specific models.
 - **Pymol, Chimera and Blender** are use to genrate 3D models.
-- **Even Faster you can use Mol'*' (https://molstar.org/viewer/) that can directly export your model in usdz and glb format that are ready to be uploaded on your server**
+- Even Faster you can use **Mol'*'** (https://molstar.org/viewer/) that can directly export your model in usdz and glb format, ready to be uploaded on your server.
+- You can also have look to **MolAR** (https://mtzgroup.github.io/molar/).
 
 ## Usage
 
@@ -52,6 +53,16 @@ Here are some QR codes for each model:
   You have the possibility to just display the model in 3D by clicking on 'object' (for iOS), 3D (for Android)
 
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
+
+6. **Just have Fun**
+   
+  Today's fluorescent assay is glowing in a vibrant …
+  
+… **mcherry**!
+
+
+https://github.com/user-attachments/assets/bfa177a1-5bc0-483a-8956-927bb8eb15a4
+
 
 ## Generating 3D Models for AR Viewer
 
