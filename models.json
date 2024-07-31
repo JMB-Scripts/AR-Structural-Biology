@@ -8,5 +8,6 @@
     "model7": { "ios": "1lmb-v5.usdz", "android": "1lmb-v5.glb" },
     "model8": { "ios": "cap.usdz", "android": "cap.glb" },
     "model9": { "ios": "HT.usdz", "android": "HT.glb" },
-    "model10": { "ios": "dengue.usdz", "android": "dengue.glb" }
+    "model10": { "ios": "dengue.usdz", "android": "dengue.glb" },
+    "model11": { "ios": "mcerulean.usdz", "android": "mcerulean.glb" }
 }
