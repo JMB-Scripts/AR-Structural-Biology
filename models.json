@@ -11,5 +11,6 @@
     "model10": { "ios": "dengue.usdz", "android": "dengue.glb" },
     "model11": { "ios": "mcerulean.usdz", "android": "mcerulean.glb" },
     "model12": { "ios": "danu.usdz", "android": "danu.glb" },
-    "model13": { "ios": "psu.usdz", "android": "psu.glb" }
+    "model13": { "ios": "psu.usdz", "android": "psu.glb" },
+    "model14": { "ios": "melanin.usdz", "android": "melanin.glb" }
 }
