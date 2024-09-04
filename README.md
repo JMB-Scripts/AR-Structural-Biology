@@ -27,26 +27,47 @@ If you take nice AR picture please share !!
      
      just change the model number for the aa:
      
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15 :ALA,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model16 :ARG,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model17 :ASN,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model18 :ASP,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model19 :CYS,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model20 :GLN,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model21 :GLU,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model22 :GLY,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model23 :HIS,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model24 :ILE,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model25 :LEU,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model26 :LYS,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model27 :MET,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model28 :PHE,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model29 :PRO,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model30 :SER,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model31 :THR,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model32 :TRP,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model33 :TYR,
- https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model34 :VAL,
+ ALA
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15 
+ARG
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model16 
+ASN
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model17 
+ASP
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model18 
+CYS
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model19 
+GLN
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model20 
+GLU
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model21 
+GLY
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model22 
+HIS
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model23 
+ILE
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model24 
+LEU
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model25 
+LYS
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model26 
+MET
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model27 
+PHE
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model28 
+PRO
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model29 
+SER
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model30 
+THR
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model31 
+TRP
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model32 
+TYR
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model33 
+VAL
+ https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model34 
+
 
 2. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
    (for ipad make sure that safari is in mobile version)
