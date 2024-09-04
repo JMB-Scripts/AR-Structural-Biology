@@ -19,8 +19,13 @@ If you take nice AR picture please share !!
 ## Usage
 
 ### Viewing Models
+1. **enter the link to your smartphone-pad etc...**
+      you can have access to the 20 amino acids model15 to model34
+      by with the following link 
+      https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15
+      just change the model nimber
 
-1. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
+2. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
    (for ipad make sure that safari is in mobile version)
    
 ## QR Codes
@@ -40,21 +45,21 @@ Here are some QR codes for each model:
 ### Haemoglobin
 <img src="QR-Code/hemo.png" alt="Haemoglobin" width="150" height="150">
 
-2. **Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
+**Open the Link**: The link will direct you to the web viewer, which will automatically detect your device and load the appropriate model depending of iOS or Android.
 
-3. **Click on the cube at the bottom right**
+**Click on the cube at the bottom right**
 <img src="Divers/ar-icon.png" alt="Cube" width="100" height="100">
 
-4. **See the magic, your model in your world**
+**See the magic, your model in your world**
 <img src="Divers/DNA.jpg" alt="AR-DNA" width="150" height="250">
 
-5. **Display just the 3D model without AR**
+**Display just the 3D model without AR**
 
   You have the possibility to just display the model in 3D by clicking on 'object' (for iOS), 3D (for Android)
 
 <img src="Divers/1lmb.png" alt="AR-DNA" width="150" height="250">
 
-6. **Just have Fun**
+3. **Just have Fun**
    
   Today's fluorescent assay is glowing in a vibrant …
   
