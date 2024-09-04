@@ -20,10 +20,12 @@ If you take nice AR picture please share !!
 
 ### Viewing Models
 1. **enter the link to your smartphone-pad etc...**
-      you can have access to the 20 amino acids model15 to model34
-      by with the following link 
+      You can have access to the 20 amino acids model15 to model34
+      by with the following link:
+
       https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15
-      just change the model nimber
+     
+     just change the model number
 
 2. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
    (for ipad make sure that safari is in mobile version)
