@@ -25,7 +25,8 @@ If you take nice AR picture please share !!
 
       https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15
      
-     just change the model number
+     just change the model number for the aa:
+     
 model15: "ALA
 model16: "ARG
 model17: "ASN
