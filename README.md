@@ -19,80 +19,82 @@ If you take nice AR picture please share !!
 ## Usage
 
 ### Viewing Models
-1. **enter the link to your smartphone-pad etc...**
-      You can have access to the 20 amino acids model15 to model34
+1. **Use a link with smartphone or tablet etc...**
+      For example you can have access to the 20 amino acids (model15 to model34)
       by with the following link:
 
-      https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15
+      https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=modelXX
      
-     just change the model number for the aa:
+     just change the model number XX for the coresponding aa:
      
- ALA
+ ALA:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model15 
 
-ARG
+ARG:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model16 
 
-ASN
+ASN:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model17 
 
-ASP
+ASP:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model18 
 
-CYS
+CYS:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model19 
 
-GLN
+GLN:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model20 
 
-GLU
+GLU:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model21 
 
-GLY
+GLY:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model22 
 
-HIS
+HIS:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model23 
 
-ILE
+ILE:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model24 
 
-LEU
+LEU:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model25 
 
-LYS
+LYS:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model26 
 
-MET
+MET:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model27 
 
-PHE
+PHE:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model28 
 
-PRO
+PRO:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model29 
 
-SER
+SER:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model30 
 
-THR
+THR:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model31 
 
-TRP
+TRP:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model32 
 
-TYR
+TYR:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model33 
 
-VAL
+VAL:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model34 
 
 
-2. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
+2. **Use a a QR Code**
+You can also use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
    (for ipad make sure that safari is in mobile version)
    
 ## QR Codes
-Here are some QR codes for each model:
+Here are some QR codes for some models:
+
 ### Alpha Helix
 <img src="QR-Code/a-helix.png" alt="Alpha Helix" width="150" height="150">
 
@@ -139,6 +141,7 @@ To create and optimize 3D models for the AR viewer, follow this pipeline using P
 1. **Create Your Model in PyMOL or Chimera:**
    - Design your 3D molecular structure or other models using PyMOL or Chimera.
    - Export the model in the VRML 2 format.
+   - if you use **Mol'*'** (https://molstar.org/viewer/) you can direclty export the model in usdz or glb.
 
 2. **Import and Process in Blender:**
    - **Importing the Model:**
@@ -150,6 +153,12 @@ To create and optimize 3D models for the AR viewer, follow this pipeline using P
      - Export the model in both USDZ (for iOS) and GLB (for Android) formats, ensuring cross-platform compatibility.
 
 3. **Optimizing Large Models with MeshLab:**
+   - **keeping the color** (thx to @Allister_crow)
+    - Open the VRML 2 model in Meslab
+    - under color Creation and Processing -> transfert color to vertex to face 
+    - under color Creation and Processing -> tranfert color face to vertex 
+    - save the model to *.obj and then go to blender (step2)
+
    - **Handling Large Structures:**
      - For complex models resulting in large file sizes, use MeshLab to optimize the model using cleanning tools.
    - **Decimation and Cleaning:**
