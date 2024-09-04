@@ -87,12 +87,13 @@ TYR:
 VAL:
  https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model34 
 
+  
+## QR Codes
 
 2. **Use a a QR Code**
-You can also use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
+You can also use a QR code scanner on your mobile device to scan the QR code associated with the desired model (for presentation, poster etc ...).
    (for ipad make sure that safari is in mobile version)
-   
-## QR Codes
+
 Here are some QR codes for some models:
 
 ### Alpha Helix
