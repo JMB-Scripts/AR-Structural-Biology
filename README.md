@@ -27,26 +27,26 @@ If you take nice AR picture please share !!
      
      just change the model number for the aa:
      
-model15: "ALA
-model16: "ARG
-model17: "ASN
-model18: "ASP
-model19: "CYS
-model20: "GLN
-model21: "GLU
-model22: "GLY
-model23: "HIS
-model24: "ILE
-model25: "LEU
-model26: "LYS
-model27: "MET
-model28: "PHE
-model29: "PRO
-model30: "SER
-model31: "THR
-model32: "TRP
-model33: "TYR
-model34: "VAL
+model15 :ALA,
+model16 :ARG,
+model17 :ASN,
+model18 :ASP,
+model19 :CYS,
+model20 :GLN,
+model21 :GLU,
+model22 :GLY,
+model23 :HIS,
+model24 :ILE,
+model25 :LEU,
+model26 :LYS,
+model27 :MET,
+model28 :PHE,
+model29 :PRO,
+model30 :SER,
+model31 :THR,
+model32 :TRP,
+model33 :TYR,
+model34 :VAL,
 
 2. **Scan the QR Code**: Use a QR code scanner on your mobile device to scan the QR code associated with the desired model.
    (for ipad make sure that safari is in mobile version)
