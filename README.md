@@ -134,6 +134,12 @@ Here are some QR codes for some models:
 
 https://github.com/user-attachments/assets/bfa177a1-5bc0-483a-8956-927bb8eb15a4
 
+4. **another way to learn**
+
+
+https://github.com/user-attachments/assets/8d391bb7-de8d-4201-99d2-7d9b1601902c
+
+
 
 ## Generating 3D Models for AR Viewer
 
