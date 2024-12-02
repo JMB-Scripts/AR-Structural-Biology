@@ -32,5 +32,8 @@
     "model31": { "ios": "THR.PDB.usdz", "android": "THR.PDB.glb" },
     "model32": { "ios": "TRP.PDB.usdz", "android": "TRP.PDB.glb" },
     "model33": { "ios": "TYR.PDB.usdz", "android": "TYR.PDB.glb" },
-    "model34": { "ios": "VAL.PDB.usdz", "android": "VAL.PDB.glb" }
+    "model34": { "ios": "VAL.PDB.usdz", "android": "VAL.PDB.glb" },
+    "model35": { "ios": "2GGA.usdz", "android": "2GGA.glb" },
+    "model36": { "ios": "1ZED.usdz", "android": "1ZED.glb" },
+    "model37": { "ios": "GOX2.usdz", "android": "GOX2.glb" }
 }
