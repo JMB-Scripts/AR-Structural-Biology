@@ -6,6 +6,9 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 If you take nice AR picture please share !!
 
+If you found this project useful, used it, or needed to customize it, please let me know! 
+Your feedback is essential to help me improve and continue this project. You can reach out to me directly at reach out to me via email.
+
 ## Features
 
 - **Cross-Platform Support**: Automatically detects the user's device (iOS or Android) and loads the appropriate 3D model format (USDZ for iOS, GLB for Android).
