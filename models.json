@@ -39,5 +39,10 @@
     "model38": { "ios": "7PZJ.usdz", "android": "7PZJ.glb" },
     "model39": { "ios": "1OXM.usdz", "android": "1OXM.glb" },
     "model40": { "ios": "ALPHA-BETA.usdz", "android": "ALPHA-BETA.glb" },
-    "model41": { "ios": "1BAG.usdz", "android": "1BAG.glb" }
+    "model41": { "ios": "AMP.usdz", "android": "AMP.glb" },
+    "model42": { "ios": "CMP.usdz", "android": "CMP.glb" },
+    "model43": { "ios": "GMP.usdz", "android": "GMP.glb" },
+    "model44": { "ios": "TMP.usdz", "android": "TMP.glb" },
+    "model45": { "ios": "UMP.usdz", "android": "UMP.glb" }
+
 }
