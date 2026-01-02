@@ -43,6 +43,6 @@
     "model42": { "ios": "CMP.usdz", "android": "CMP.glb" },
     "model43": { "ios": "GMP.usdz", "android": "GMP.glb" },
     "model44": { "ios": "TMP.usdz", "android": "TMP.glb" },
-    "model45": { "ios": "UMP.usdz", "android": "UMP.glb" }
-
+    "model45": { "ios": "UMP.usdz", "android": "UMP.glb" },
+    "model46": { "ios": "3CGT.usdz", "android": "3CGT.glb" }
 }
