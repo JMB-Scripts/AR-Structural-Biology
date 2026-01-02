@@ -204,7 +204,7 @@ Generate QR codes that link to your hosted `models.json` with the appropriate mo
 - **B-galactosidase**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model5`
 - **Haemoglobin**: `https://jmb-scripts.github.io/AR-Structural-Biology/index.html?model=model6`
 
-   You can use a QR code generator Qr-code.py in QR-Code/:
+   You can use a QR code generator Qr-code.py or the standalone version here (https://github.com/JMB-Scripts/Qrcode-easy):
 
   1. **Edit Qr-code.py**
         change the URL line 25 with the proper model number
